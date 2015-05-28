@@ -1,7 +1,7 @@
 # :first_in sets how long it takes before the job is first run. In this case, it is run immediately
 require 'rubygems'
 require 'json'
-SCHEDULER.every '1h' do
+SCHEDULER.every '2m' do
   data_temp = Net::HTTP.get(URI.parse("http://api.openweathermap.org/data/2.5/weather?q=Moscow,ru&units=metric")).chomp
   data_cur = Net::HTTP.get(URI.parse("http://query.yahooapis.com/v1/public/yql?q=select+*+from+yahoo.finance.xchange+where+pair+=+%22USDRUB,EURRUB%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"))
   cur = JSON.parse(data_cur)
