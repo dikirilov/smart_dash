@@ -1,1 +1,1 @@
-# smart_dash
+# Dashboard for smart home project
