@@ -1,23 +1,23 @@
 ---
-convergence: ! 'data: {"points":[{"x":101,"y":14},{"x":102,"y":0},{"x":103,"y":6},{"x":104,"y":4},{"x":105,"y":29},{"x":106,"y":7},{"x":107,"y":16},{"x":108,"y":16},{"x":109,"y":27},{"x":110,"y":7}],"id":"convergence","updatedAt":1432813167}
+convergence: ! 'data: {"points":[{"x":20,"y":47},{"x":21,"y":5},{"x":22,"y":15},{"x":23,"y":35},{"x":24,"y":39},{"x":25,"y":8},{"x":26,"y":44},{"x":27,"y":19},{"x":28,"y":37},{"x":29,"y":33}],"id":"convergence","updatedAt":1432986485}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Enterprise","value":8},{"label":"Synergy","value":17},{"label":"Turn-key","value":6},{"label":"Streamlininess","value":14},{"label":"Web
-  2.0","value":11},{"label":"Leverage","value":14},{"label":"Exit strategy","value":6},{"label":"Paradigm
-  shift","value":18},{"label":"Pivoting","value":6}],"id":"buzzwords","updatedAt":1432813168}
+buzzwords: ! 'data: {"items":[{"label":"Enterprise","value":4},{"label":"Paradigm
+  shift","value":3},{"label":"Leverage","value":2},{"label":"Exit strategy","value":2},{"label":"Web
+  2.0","value":4},{"label":"Streamlininess","value":2},{"label":"Turn-key","value":1},{"label":"Pivoting","value":1}],"id":"buzzwords","updatedAt":1432986485}
 
 
 '
-valuation: ! 'data: {"current":34,"last":73,"id":"valuation","updatedAt":1432813168}
+valuation: ! 'data: {"current":86,"last":58,"id":"valuation","updatedAt":1432986485}
 
 
 '
-karma: ! 'data: {"current":114395,"last":5,"id":"karma","updatedAt":1432813168}
+karma: ! 'data: {"current":138857,"last":27589,"id":"karma","updatedAt":1432986485}
 
 
 '
-synergy: ! 'data: {"value":84,"id":"synergy","updatedAt":1432813168}
+synergy: ! 'data: {"value":2,"id":"synergy","updatedAt":1432986485}
 
 
 '
@@ -25,7 +25,7 @@ welcome: ! 'data: {"text":"Даже русский","id":"welcome","updatedAt":1
 
 
 '
-temp: ! 'data: {"text":"26","id":"temp","updatedAt":1432813088}
+temp: ! 'data: {"text":"20","id":"temp","updatedAt":1432986477}
 
 
 '
@@ -37,11 +37,11 @@ cur_eur: ! 'data: {"text":"58.0556","id":"cur_eur","updatedAt":1430695894}
 
 
 '
-usd_cur: ! 'data: {"text":"52.7900","id":"usd_cur","updatedAt":1432813088}
+usd_cur: ! 'data: {"text":"52,9716","id":"usd_cur","updatedAt":1432986477}
 
 
 '
-eur_cur: ! 'data: {"text":"57.6557","id":"eur_cur","updatedAt":1432813088}
+eur_cur: ! 'data: {"text":"58,0145","id":"eur_cur","updatedAt":1432986477}
 
 
 '
@@ -55,7 +55,11 @@ mqtt_widget: ! 'data: {"text":"checking","id":"mqtt_widget","updatedAt":14328094
 '
 calendar_events: ! 'data: {"events":[{"title":"Предзащита бакалаврской работы ","body":"Когда:
   ср, 10 июнь 2015 15:00 - 17:00 \nMSK<br />\n\n\n<br />Статус мероприятия: подтверждено","calendar":"Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No
-  time","when_end":"No time"}],"id":"calendar_events","updatedAt":1432813149}
+  time","when_end":"No time"}],"id":"calendar_events","updatedAt":1432986448}
+
+
+'
+traffic: ! 'data: {"text":"1","level":"На дорогах свободно","id":"traffic","updatedAt":1432986477}
 
 
 '
