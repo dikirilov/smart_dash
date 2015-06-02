@@ -4,4 +4,4 @@
 <h3 data-bind="event.body | raw"></h3>
 <p class="more-info" data-bind="moreinfo | raw"></p>
 
-<p class="updated-at" data-bind="updatedAtMessage | prepend ' | ' | prepend event.calendar"></p>
+<p class="updated-at" data-bind="event.updatedAt | append ' | ' | append event.calendar"></p>

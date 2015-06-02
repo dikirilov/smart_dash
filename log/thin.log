@@ -1,0 +1,250 @@
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.92 - - [02/Jun/2015 07:45:53] "GET /smart HTTP/1.1" 200 1883 0.0361
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.92 - - [02/Jun/2015 07:46:11] "GET /favicon.ico HTTP/1.1" 200 38125 0.0100
+192.168.1.92 - - [02/Jun/2015 07:46:11] "GET /views/clock.html HTTP/1.1" 200 54 0.0065
+192.168.1.92 - - [02/Jun/2015 07:46:11] "GET /views/text.html HTTP/1.1" 200 212 0.0057
+192.168.1.92 - - [02/Jun/2015 07:46:11] "GET /views/calendar.html HTTP/1.1" 200 288 0.0057
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `content' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:21:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
