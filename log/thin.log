@@ -248,3 +248,450 @@ undefined method `content' for nil:NilClass
 /var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
 ================================================================================
 Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.1.92 - - [02/Jun/2015 08:15:30] "GET /smart HTTP/1.1" 200 1883 0.0344
+192.168.1.92 - - [02/Jun/2015 08:15:48] "GET /views/clock.html HTTP/1.1" 200 68 0.0072
+192.168.1.92 - - [02/Jun/2015 08:15:49] "GET /views/text.html HTTP/1.1" 200 203 0.0056
+192.168.1.92 - - [02/Jun/2015 08:15:49] "GET /views/calendar.html HTTP/1.1" 200 286 0.0056
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+/usr/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+/usr/lib/ruby/1.9.1/net/http.rb:2563:in `read_status_line'
+/usr/lib/ruby/1.9.1/net/http.rb:2552:in `read_new'
+/usr/lib/ruby/1.9.1/net/http.rb:1320:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:19:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.92 - - [02/Jun/2015 09:30:48] "GET /events HTTP/1.1" 200 - 4499.7654
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+/usr/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+/usr/lib/ruby/1.9.1/net/http.rb:2563:in `read_status_line'
+/usr/lib/ruby/1.9.1/net/http.rb:2552:in `read_new'
+/usr/lib/ruby/1.9.1/net/http.rb:1320:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+/usr/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+/usr/lib/ruby/1.9.1/net/http.rb:2563:in `read_status_line'
+/usr/lib/ruby/1.9.1/net/http.rb:2552:in `read_new'
+/usr/lib/ruby/1.9.1/net/http.rb:1320:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2777:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `ensure in read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `ensure in read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+/usr/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+/usr/lib/ruby/1.9.1/net/http.rb:2563:in `read_status_line'
+/usr/lib/ruby/1.9.1/net/http.rb:2552:in `read_new'
+/usr/lib/ruby/1.9.1/net/http.rb:1320:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:19:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `ensure in read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.92 - - [02/Jun/2015 20:19:01] "GET /events HTTP/1.1" 200 - 5159.9409
+================================================================================
+scheduler caught exception:
+end of file reached
+/usr/lib/ruby/1.9.1/net/protocol.rb:141:in `read_nonblock'
+/usr/lib/ruby/1.9.1/net/protocol.rb:141:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `ensure in read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:7:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.92 - - [02/Jun/2015 20:25:18] "GET /smart HTTP/1.1" 200 1883 0.0202
+192.168.1.92 - - [02/Jun/2015 20:25:19] "GET /views/clock.html HTTP/1.1" 200 68 0.0098
+192.168.1.92 - - [02/Jun/2015 20:25:20] "GET /views/text.html HTTP/1.1" 200 203 0.0054
+192.168.1.92 - - [02/Jun/2015 20:25:20] "GET /views/calendar.html HTTP/1.1" 200 286 0.0055
+192.168.1.92 - - [02/Jun/2015 20:47:18] "GET /events HTTP/1.1" 200 - 1319.1647
+192.168.1.92 - - [02/Jun/2015 20:58:37] "GET /smart HTTP/1.1" 200 1883 0.0194
+192.168.1.92 - - [02/Jun/2015 20:58:39] "GET /views/clock.html HTTP/1.1" 200 68 0.0056
+192.168.1.92 - - [02/Jun/2015 20:58:39] "GET /views/text.html HTTP/1.1" 200 203 0.0054
+192.168.1.92 - - [02/Jun/2015 20:58:39] "GET /views/calendar.html HTTP/1.1" 200 286 0.0056
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+/usr/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+/usr/lib/ruby/1.9.1/net/http.rb:2563:in `read_status_line'
+/usr/lib/ruby/1.9.1/net/http.rb:2552:in `read_new'
+/usr/lib/ruby/1.9.1/net/http.rb:1320:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:19:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `ensure in read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:7:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:122:in `readuntil'
+/usr/lib/ruby/1.9.1/net/protocol.rb:132:in `readline'
+/usr/lib/ruby/1.9.1/net/http.rb:2563:in `read_status_line'
+/usr/lib/ruby/1.9.1/net/http.rb:2552:in `read_new'
+/usr/lib/ruby/1.9.1/net/http.rb:1320:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:19:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.92 - - [02/Jun/2015 23:31:37] "GET /events HTTP/1.1" 200 - 9179.4747
+================================================================================
+scheduler caught exception:
+undefined method `css' for nil:NilClass
+/home/bananapi/dashboard/jobs/smart.rb:9:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+================================================================================
+scheduler caught exception:
+Timeout::Error
+/usr/lib/ruby/1.9.1/net/protocol.rb:146:in `rescue in rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:140:in `rbuf_fill'
+/usr/lib/ruby/1.9.1/net/protocol.rb:92:in `read'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `ensure in read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2780:in `read_chunked'
+/usr/lib/ruby/1.9.1/net/http.rb:2751:in `read_body_0'
+/usr/lib/ruby/1.9.1/net/http.rb:2711:in `read_body'
+/usr/lib/ruby/1.9.1/net/http.rb:2736:in `body'
+/usr/lib/ruby/1.9.1/net/http.rb:2673:in `reading_body'
+/usr/lib/ruby/1.9.1/net/http.rb:1322:in `block in transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `catch'
+/usr/lib/ruby/1.9.1/net/http.rb:1317:in `transport_request'
+/usr/lib/ruby/1.9.1/net/http.rb:1294:in `request'
+/usr/lib/ruby/1.9.1/net/http.rb:1196:in `request_get'
+/usr/lib/ruby/1.9.1/net/http.rb:455:in `block in get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:746:in `start'
+/usr/lib/ruby/1.9.1/net/http.rb:454:in `get_response'
+/usr/lib/ruby/1.9.1/net/http.rb:431:in `get'
+/home/bananapi/dashboard/jobs/smart.rb:8:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'
+/var/lib/gems/1.9.1/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'
+================================================================================
+192.168.1.92 - - [03/Jun/2015 01:38:03] "GET /events HTTP/1.1" 200 - 749.9521
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now

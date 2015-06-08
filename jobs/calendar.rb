@@ -16,7 +16,7 @@ SCHEDULER.every '1m', :first_in => 0 do |job|
 	max = CGI.escape((DateTime.now()+40).to_s)
 	time = Time.now.strftime("%H:%M")
 	calendars.each do |calendar|
-		url = calendar[:url]+"?singleevents=true&orderby=starttime&start-min=#{min}&start-max=#{max}"
+		url = calendar[:url]#+"?singleevents=true&orderby=starttime&start-min=#{min}&start-max=#{max}"
 		reader = Nokogiri::XML(open(url))
 		reader.remove_namespaces!
 		reader.xpath("//feed/entry").each do |e|
@@ -29,6 +29,7 @@ SCHEDULER.every '1m', :first_in => 0 do |job|
 				when_start_raw: when_node ? DateTime.iso8601(when_node.attribute('startTime').text).to_time.to_i : 0,
 				when_end_raw: when_node ? DateTime.iso8601(when_node.attribute('endTime').text).to_time.to_i : 0,
 				when_start: when_node ? DateTime.iso8601(when_node.attribute('startTime').text).to_s : "No time",
+#                                time: when_node ? DateTime.iso8601(when_node.attribute('startTime').text).to_s : "No time",
 				when_end: when_node ? DateTime.iso8601(when_node.attribute('endTime').text).to_s : "No time",
 				updatedAt: time 
 			})

@@ -29,4 +29,16 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   &.large h3 {
     font-size: 65px;
   }
+  h3.norm {
+    font-size: 30px;
+  }
+  p.pre {
+    font-style: italic;
+  }
+  h3.big {
+    font-size: 60px;
+  }
+  h1.title {
+    margin-top: -50px;
+  }
 }

@@ -1,23 +1,22 @@
 ---
-convergence: ! 'data: {"points":[{"x":159,"y":31},{"x":160,"y":28},{"x":161,"y":12},{"x":162,"y":3},{"x":163,"y":12},{"x":164,"y":47},{"x":165,"y":45},{"x":166,"y":0},{"x":167,"y":28},{"x":168,"y":21}],"id":"convergence","updatedAt":1433203662}
+convergence: ! 'data: {"points":[{"x":29,"y":3},{"x":30,"y":27},{"x":31,"y":27},{"x":32,"y":43},{"x":33,"y":31},{"x":34,"y":35},{"x":35,"y":13},{"x":36,"y":29},{"x":37,"y":20},{"x":38,"y":5}],"id":"convergence","updatedAt":1433777088}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Enterprise","value":20},{"label":"Synergy","value":21},{"label":"Pivoting","value":13},{"label":"Streamlininess","value":20},{"label":"Exit
-  strategy","value":15},{"label":"Web 2.0","value":17},{"label":"Leverage","value":23},{"label":"Paradigm
-  shift","value":13},{"label":"Turn-key","value":16}],"id":"buzzwords","updatedAt":1433203662}
+buzzwords: ! 'data: {"items":[{"label":"Turn-key","value":2},{"label":"Web 2.0","value":2},{"label":"Streamlininess","value":4},{"label":"Pivoting","value":7},{"label":"Enterprise","value":2},{"label":"Synergy","value":3},{"label":"Exit
+  strategy","value":5},{"label":"Paradigm shift","value":2},{"label":"Leverage","value":1}],"id":"buzzwords","updatedAt":1433777088}
 
 
 '
-valuation: ! 'data: {"current":0,"last":80,"id":"valuation","updatedAt":1433203662}
+valuation: ! 'data: {"current":65,"last":79,"id":"valuation","updatedAt":1433777088}
 
 
 '
-karma: ! 'data: {"current":117903,"last":16708,"id":"karma","updatedAt":1433203662}
+karma: ! 'data: {"current":114298,"last":115348,"id":"karma","updatedAt":1433777088}
 
 
 '
-synergy: ! 'data: {"value":74,"id":"synergy","updatedAt":1433203662}
+synergy: ! 'data: {"value":98,"id":"synergy","updatedAt":1433777088}
 
 
 '
@@ -37,7 +36,8 @@ cur_eur: ! 'data: {"text":"58.0556","id":"cur_eur","updatedAt":1430695894}
 
 
 '
-usd_cur: ! 'data: {"text":"52,8213","from_info":"CBR","updatedAt":"02.06.2015","id":"usd_cur"}
+usd_cur: ! 'data: {"utext":"56,0435","from_info":"CBR","updatedAt":"08.06.2015","title":"Курс
+  доллара","id":"usd_cur"}
 
 
 '
@@ -53,17 +53,20 @@ mqtt_widget: ! 'data: {"text":"checking","id":"mqtt_widget","updatedAt":14328094
 
 
 '
-calendar_events: ! 'data: {"events":[{"title":"Предзащита бакалаврской работы ","body":"Когда:
-  ср, 10 июнь 2015 15:00 - 17:00 \nMSK<br />\n\n\n<br />Статус мероприятия: подтверждено","calendar":"Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No
-  time","when_end":"No time","updatedAt":"08:07"}],"id":"calendar_events","updatedAt":1433203647}
+calendar_events: ! 'data: {"events":[{"title":"Открытие лаборатории ИУ6","body":"Когда:
+  вт, 9 июнь 2015 16:00 - 21:00 \nMSK<br />\n\n<br />Место: МГТУ им. Н.Э.Баумана,
+  ул. 2-я Бауманская, 5, стр. 1, Москва, г. Москва, Россия\n<br />Статус мероприятия:
+  подтверждено","calendar":"Google Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No
+  time","when_end":"No time","updatedAt":"23:23"}],"id":"calendar_events","updatedAt":1433777033}
 
 
 '
-traffic: ! 'data: {"text":"","from_info":"Yandex","updatedAt":"08:07","id":"traffic"}
+traffic: ! 'data: {"text":"5","utext":"Движение плотное","from_info":"Yandex","updatedAt":"23:24","title":"Загруженность
+  дорог","id":"traffic"}
 
 
 '
-forecast: ! 'data: {"text":"24\n14","from_info":"Yandex","updatedAt":"08:07","id":"forecast"}
+forecast: ! 'data: {"text":"20°","utext":"21°","from_info":"Yandex","updatedAt":"23:24","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
 
 
 '
