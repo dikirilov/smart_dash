@@ -1,23 +1,23 @@
 ---
-convergence: ! 'data: {"points":[{"x":13,"y":32},{"x":14,"y":17},{"x":15,"y":10},{"x":16,"y":34},{"x":17,"y":33},{"x":18,"y":15},{"x":19,"y":2},{"x":20,"y":5},{"x":21,"y":43},{"x":22,"y":44}],"id":"convergence","updatedAt":1433778272}
+convergence: ! 'data: {"points":[{"x":342,"y":18},{"x":343,"y":43},{"x":344,"y":30},{"x":345,"y":15},{"x":346,"y":16},{"x":347,"y":15},{"x":348,"y":23},{"x":349,"y":29},{"x":350,"y":2},{"x":351,"y":4}],"id":"convergence","updatedAt":1433805878}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Pivoting","value":5},{"label":"Synergy","value":1},{"label":"Web
-  2.0","value":1},{"label":"Turn-key","value":1},{"label":"Exit strategy","value":2},{"label":"Enterprise","value":1},{"label":"Paradigm
-  shift","value":1}],"id":"buzzwords","updatedAt":1433778272}
+buzzwords: ! 'data: {"items":[{"label":"Paradigm shift","value":29},{"label":"Web
+  2.0","value":7},{"label":"Leverage","value":17},{"label":"Pivoting","value":12},{"label":"Synergy","value":11},{"label":"Streamlininess","value":10},{"label":"Enterprise","value":4},{"label":"Exit
+  strategy","value":9},{"label":"Turn-key","value":1}],"id":"buzzwords","updatedAt":1433805878}
 
 
 '
-valuation: ! 'data: {"current":98,"last":26,"id":"valuation","updatedAt":1433778272}
+valuation: ! 'data: {"current":45,"last":36,"id":"valuation","updatedAt":1433805878}
 
 
 '
-karma: ! 'data: {"current":152067,"last":8203,"id":"karma","updatedAt":1433778272}
+karma: ! 'data: {"current":54682,"last":169049,"id":"karma","updatedAt":1433805878}
 
 
 '
-synergy: ! 'data: {"value":69,"id":"synergy","updatedAt":1433778272}
+synergy: ! 'data: {"value":61,"id":"synergy","updatedAt":1433805878}
 
 
 '
@@ -37,8 +37,7 @@ cur_eur: ! 'data: {"text":"58.0556","id":"cur_eur","updatedAt":1430695894}
 
 
 '
-usd_cur: ! 'data: {"utext":"56,0435","from_info":"CBR","updatedAt":"08.06.2015","title":"Курс
-  доллара","id":"usd_cur"}
+usd_cur: ! 'data: {"cur1":"56,04","cur2":"62,50","from_info":"CBR","updatedAt":"09.06.2015","title":"Курс","sign1":"$    ","sign2":"€    ","id":"usd_cur"}
 
 
 '
@@ -58,20 +57,21 @@ calendar_events: ! 'data: {"events":[{"title":"Открытие лаборато
   вт, 9 июнь 2015 16:00 - 21:00 \nMSK<br />\n\n<br />Место: МГТУ им. Н.Э.Баумана,
   ул. 2-я Бауманская, 5, стр. 1, Москва, г. Москва, Россия\n<br />Статус мероприятия:
   подтверждено","calendar":"Google Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No
-  time","when_end":"No time","updatedAt":"23:44"}],"id":"calendar_events","updatedAt":1433778249}
+  time","when_end":"No time","updatedAt":"07:24"}],"id":"calendar_events","updatedAt":1433805857}
 
 
 '
-traffic: ! 'data: {"text":"6","utext":"Движение затруднено","from_info":"Yandex","updatedAt":"23:44","title":"Загруженность
-  дорог","id":"traffic"}
+traffic: ! 'data: {"text":6,"utext":"Движение затруднено","from_info":"Yandex","updatedAt":"07:24","title":"Пробки","id":"traffic"}
 
 
 '
-forecast: ! 'data: {"text":"20°","utext":"22°","from_info":"Yandex","updatedAt":"23:44","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
+forecast: ! 'data: {"text":"17°","utext":"13°","from_info":"Yandex","updatedAt":"07:24","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
 
 
 '
-todoist: ! 'data: {"pre_text":"Начать конфигать openHAB","title":"Задачи","updatedAt":"23:44","from_info":"Todoist","id":"todoist"}
+todoist: ! 'data: {"body":"<ul><li>Начать конфигать openHAB</li><li>Закончить описание
+  dashing</li><li>Начать писать про проганье nRF24LE01</li><li>Конфигать openHAB по
+  максимуму</li></ul>","title":"Задачи","updatedAt":"07:24","from_info":"Todoist","id":"todoist"}
 
 
 '

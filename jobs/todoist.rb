@@ -15,7 +15,15 @@ SCHEDULER.every '3s' do
      
     if response.code == "200"
       result = JSON.parse(response.body)
-      p result
-      send_event('todoist', { pre_text: result[0]["data"][0]["content"], title: "Задачи", updatedAt: Time.now.strftime("%H:%M"), from_info: "Todoist" })
+#      p result
+      list = "<ul>"
+      i = 0
+      while (i < 5 && result[0]["data"][i])
+        item = result[0]["data"][i]
+        i += 1
+        list += "<li>" + item["content"] + "</li>" 
+      end
+      list += "</ul>"
+      send_event('todoist', { body: list, title: "Задачи", updatedAt: Time.now.strftime("%H:%M"), from_info: "Todoist" })
     end
 end

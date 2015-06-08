@@ -18,7 +18,8 @@ SCHEDULER.every '10s' do
 #  currency = Nokogiri::XML(Net::HTTP.get(URI.parse("http://www.cbr.ru/scripts/XML_daily.asp"))).at_xpath('//ValCurs')
 #  usd = currency.at_xpath('//Valute[@ID="R01235"]/Value').content 
 #  eur = currency.at_xpath('//Valute[@ID="R01239"]/Value').content
-
+#traff_lev = 6
+#traff_hint = "Движение затруднено"
   traff_lev = Nokogiri::XML(Net::HTTP.get(URI.parse("http://export.yandex.ru/bar/reginfo.xml?ncrnd=9742"))).at_xpath('//info/traffic/level').content   #").text
   traff_hint = Nokogiri::XML(Net::HTTP.get(URI.parse("http://export.yandex.ru/bar/reginfo.xml?ncrnd=9742"))).at_xpath('//info/traffic/hint').content 
 #p traffic
@@ -27,7 +28,9 @@ SCHEDULER.every '10s' do
 #  tr_lev = traff.at_xpath('//hint').content
   time = Time.now.strftime("%H:%M")
 
+#p traff_lev
+
   send_event('forecast', { text: (((temp_min.to_i+temp_max.to_i)/2).round.to_s+"°"), utext: (temp.to_s+"°"), from_info: "Yandex", updatedAt: time, title: "Погода", pre_text: "Сейчас", pre_utext: "Завтра" })
 #  send_event('usd_cur', { text: usd.to_s, from_info: "CBR" })
-  send_event('traffic', { text: traff_lev, utext: traff_hint, from_info: "Yandex", updatedAt: time, title: "Загруженность дорог" })
+  send_event('traffic', { text: traff_lev, utext: traff_hint, from_info: "Yandex", updatedAt: time, title: "Пробки" })
 end

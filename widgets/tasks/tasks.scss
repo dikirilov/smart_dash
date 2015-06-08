@@ -1,7 +1,8 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #ec663c;
+$background-color:  #222;
+$hover-color: rgba(255, 255, 255, 0.1);
 
 $title-color:       rgba(255, 255, 255, 0.7);
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
@@ -9,7 +10,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
 // ----------------------------------------------------------------------------
 // Widget-text styles
 // ----------------------------------------------------------------------------
-.widget-text {
+.widget-tasks {
 
   background-color: $background-color;
 
@@ -17,27 +18,27 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     color: $title-color;
   }
 
-  .more-info {
-    color: $moreinfo-color;
+  .body {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  li {
+    background-color: $background-color;
+    padding-left: 5px;
+    padding-top:  2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    &:hover {
+      background-color: $hover-color;
+    }
   }
 
   .updated-at {
-    color: rgba(255, 255, 255, 0.7);
+    color: $title-color;
   }
 
-
-  &.large h3 {
-    font-size: 65px;
-  }
-  h3.norm {
-    font-size: 30px;
-  }
-  .pre {
-    font-style: italic;
-  }
-  h3.big {
-    font-size: 60px;
-  }
   h1.title {
     margin-top: -50px;
     font-size: 70px;
