@@ -1,22 +1,23 @@
 ---
-convergence: ! 'data: {"points":[{"x":29,"y":3},{"x":30,"y":27},{"x":31,"y":27},{"x":32,"y":43},{"x":33,"y":31},{"x":34,"y":35},{"x":35,"y":13},{"x":36,"y":29},{"x":37,"y":20},{"x":38,"y":5}],"id":"convergence","updatedAt":1433777088}
+convergence: ! 'data: {"points":[{"x":13,"y":32},{"x":14,"y":17},{"x":15,"y":10},{"x":16,"y":34},{"x":17,"y":33},{"x":18,"y":15},{"x":19,"y":2},{"x":20,"y":5},{"x":21,"y":43},{"x":22,"y":44}],"id":"convergence","updatedAt":1433778272}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Turn-key","value":2},{"label":"Web 2.0","value":2},{"label":"Streamlininess","value":4},{"label":"Pivoting","value":7},{"label":"Enterprise","value":2},{"label":"Synergy","value":3},{"label":"Exit
-  strategy","value":5},{"label":"Paradigm shift","value":2},{"label":"Leverage","value":1}],"id":"buzzwords","updatedAt":1433777088}
+buzzwords: ! 'data: {"items":[{"label":"Pivoting","value":5},{"label":"Synergy","value":1},{"label":"Web
+  2.0","value":1},{"label":"Turn-key","value":1},{"label":"Exit strategy","value":2},{"label":"Enterprise","value":1},{"label":"Paradigm
+  shift","value":1}],"id":"buzzwords","updatedAt":1433778272}
 
 
 '
-valuation: ! 'data: {"current":65,"last":79,"id":"valuation","updatedAt":1433777088}
+valuation: ! 'data: {"current":98,"last":26,"id":"valuation","updatedAt":1433778272}
 
 
 '
-karma: ! 'data: {"current":114298,"last":115348,"id":"karma","updatedAt":1433777088}
+karma: ! 'data: {"current":152067,"last":8203,"id":"karma","updatedAt":1433778272}
 
 
 '
-synergy: ! 'data: {"value":98,"id":"synergy","updatedAt":1433777088}
+synergy: ! 'data: {"value":69,"id":"synergy","updatedAt":1433778272}
 
 
 '
@@ -57,16 +58,20 @@ calendar_events: ! 'data: {"events":[{"title":"Открытие лаборато
   вт, 9 июнь 2015 16:00 - 21:00 \nMSK<br />\n\n<br />Место: МГТУ им. Н.Э.Баумана,
   ул. 2-я Бауманская, 5, стр. 1, Москва, г. Москва, Россия\n<br />Статус мероприятия:
   подтверждено","calendar":"Google Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No
-  time","when_end":"No time","updatedAt":"23:23"}],"id":"calendar_events","updatedAt":1433777033}
+  time","when_end":"No time","updatedAt":"23:44"}],"id":"calendar_events","updatedAt":1433778249}
 
 
 '
-traffic: ! 'data: {"text":"5","utext":"Движение плотное","from_info":"Yandex","updatedAt":"23:24","title":"Загруженность
+traffic: ! 'data: {"text":"6","utext":"Движение затруднено","from_info":"Yandex","updatedAt":"23:44","title":"Загруженность
   дорог","id":"traffic"}
 
 
 '
-forecast: ! 'data: {"text":"20°","utext":"21°","from_info":"Yandex","updatedAt":"23:24","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
+forecast: ! 'data: {"text":"20°","utext":"22°","from_info":"Yandex","updatedAt":"23:44","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
+
+
+'
+todoist: ! 'data: {"pre_text":"Начать конфигать openHAB","title":"Задачи","updatedAt":"23:44","from_info":"Todoist","id":"todoist"}
 
 
 '
