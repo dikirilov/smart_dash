@@ -1,23 +1,23 @@
 ---
-convergence: ! 'data: {"points":[{"x":342,"y":18},{"x":343,"y":43},{"x":344,"y":30},{"x":345,"y":15},{"x":346,"y":16},{"x":347,"y":15},{"x":348,"y":23},{"x":349,"y":29},{"x":350,"y":2},{"x":351,"y":4}],"id":"convergence","updatedAt":1433805878}
+convergence: ! 'data: {"points":[{"x":1018,"y":12},{"x":1019,"y":42},{"x":1020,"y":44},{"x":1021,"y":44},{"x":1022,"y":10},{"x":1023,"y":16},{"x":1024,"y":32},{"x":1025,"y":21},{"x":1026,"y":14},{"x":1027,"y":22}],"id":"convergence","updatedAt":1434303492}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Paradigm shift","value":29},{"label":"Web
-  2.0","value":7},{"label":"Leverage","value":17},{"label":"Pivoting","value":12},{"label":"Synergy","value":11},{"label":"Streamlininess","value":10},{"label":"Enterprise","value":4},{"label":"Exit
-  strategy","value":9},{"label":"Turn-key","value":1}],"id":"buzzwords","updatedAt":1433805878}
+buzzwords: ! 'data: {"items":[{"label":"Synergy","value":0},{"label":"Turn-key","value":22},{"label":"Leverage","value":25},{"label":"Paradigm
+  shift","value":14},{"label":"Enterprise","value":6},{"label":"Streamlininess","value":28},{"label":"Pivoting","value":11},{"label":"Web
+  2.0","value":19},{"label":"Exit strategy","value":22}],"id":"buzzwords","updatedAt":1434303492}
 
 
 '
-valuation: ! 'data: {"current":45,"last":36,"id":"valuation","updatedAt":1433805878}
+valuation: ! 'data: {"current":95,"last":42,"id":"valuation","updatedAt":1434303492}
 
 
 '
-karma: ! 'data: {"current":54682,"last":169049,"id":"karma","updatedAt":1433805878}
+karma: ! 'data: {"current":135624,"last":59912,"id":"karma","updatedAt":1434303492}
 
 
 '
-synergy: ! 'data: {"value":61,"id":"synergy","updatedAt":1433805878}
+synergy: ! 'data: {"value":78,"id":"synergy","updatedAt":1434303492}
 
 
 '
@@ -49,15 +49,15 @@ text: ! 'data: {"mqtt_widget":"My text","id":"text","updatedAt":1432233152}
 
 
 '
-mqtt_widget: ! 'data: {"text":"checking","id":"mqtt_widget","updatedAt":1432809402}
+mqtt_widget: ! 'data: {"text":"asf","id":"mqtt_widget","updatedAt":1434189674}
 
 
 '
-calendar_events: ! 'data: {"events":[{"title":"Открытие лаборатории ИУ6","body":"Когда:
-  вт, 9 июнь 2015 16:00 - 21:00 \nMSK<br />\n\n<br />Место: МГТУ им. Н.Э.Баумана,
-  ул. 2-я Бауманская, 5, стр. 1, Москва, г. Москва, Россия\n<br />Статус мероприятия:
-  подтверждено","calendar":"Google Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No
-  time","when_end":"No time","updatedAt":"07:24"}],"id":"calendar_events","updatedAt":1433805857}
+calendar_events: ! 'data: {"events":[{"title":"Защита бакалаврской работы","body":"Когда:
+  чт, 25 июнь 2015<br />\n\n<br />Место: МГТУ им. Н.Э.Баумана, ул. 2-я Бауманская,
+  5, стр. 1, Москва, г. Москва, Россия\n<br />Статус мероприятия: подтверждено","calendar":"Google
+  Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No time","when_end":"No
+  time","updatedAt":"01:37"}],"id":"calendar_events","updatedAt":1434303439}
 
 
 '
@@ -69,9 +69,13 @@ forecast: ! 'data: {"text":"17°","utext":"13°","from_info":"Yandex","updatedAt
 
 
 '
-todoist: ! 'data: {"body":"<ul><li>Начать конфигать openHAB</li><li>Закончить описание
-  dashing</li><li>Начать писать про проганье nRF24LE01</li><li>Конфигать openHAB по
-  максимуму</li></ul>","title":"Задачи","updatedAt":"07:24","from_info":"Todoist","id":"todoist"}
+todoist: ! 'data: {"body":"<ul><li>написать про MQTT</li><li>Нарисовать диаграмму
+  вариантов использования</li><li>Начать писать про проганье nRF24LE01</li><li>Разобраться
+  с управлением светом</li></ul>","title":"Задачи","updatedAt":"01:38","from_info":"Todoist","id":"todoist"}
+
+
+'
+mqtt: ! 'data: {"text":"sdgd324","updatedAt":"18:13","from_info":"MQTT","id":"mqtt"}
 
 
 '
