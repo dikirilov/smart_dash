@@ -24,6 +24,6 @@ SCHEDULER.every '3s' do
         list += "<li>" + item["content"] + "</li>" 
       end
       list += "</ul>"
-      send_event('todoist', { body: list, title: "Задачи", updatedAt: Time.now.strftime("%H:%M"), from_info: "Todoist" })
+      send_event('todoist', { body: list, title: "Задачи", updatedAt: Time.now.strftime("%H:%M"), from_info: "TODOist" })
     end
 end

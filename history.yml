@@ -1,23 +1,22 @@
 ---
-convergence: ! 'data: {"points":[{"x":1018,"y":12},{"x":1019,"y":42},{"x":1020,"y":44},{"x":1021,"y":44},{"x":1022,"y":10},{"x":1023,"y":16},{"x":1024,"y":32},{"x":1025,"y":21},{"x":1026,"y":14},{"x":1027,"y":22}],"id":"convergence","updatedAt":1434303492}
+convergence: ! 'data: {"points":[{"x":806,"y":49},{"x":807,"y":24},{"x":808,"y":3},{"x":809,"y":34},{"x":810,"y":43},{"x":811,"y":19},{"x":812,"y":38},{"x":813,"y":16},{"x":814,"y":12},{"x":815,"y":1}],"id":"convergence","updatedAt":1434581622}
 
 
 '
-buzzwords: ! 'data: {"items":[{"label":"Synergy","value":0},{"label":"Turn-key","value":22},{"label":"Leverage","value":25},{"label":"Paradigm
-  shift","value":14},{"label":"Enterprise","value":6},{"label":"Streamlininess","value":28},{"label":"Pivoting","value":11},{"label":"Web
-  2.0","value":19},{"label":"Exit strategy","value":22}],"id":"buzzwords","updatedAt":1434303492}
+buzzwords: ! 'data: {"items":[{"label":"Synergy","value":3},{"label":"Exit strategy","value":16},{"label":"Turn-key","value":5},{"label":"Pivoting","value":13},{"label":"Leverage","value":26},{"label":"Paradigm
+  shift","value":27},{"label":"Web 2.0","value":8},{"label":"Streamlininess","value":29},{"label":"Enterprise","value":18}],"id":"buzzwords","updatedAt":1434581622}
 
 
 '
-valuation: ! 'data: {"current":95,"last":42,"id":"valuation","updatedAt":1434303492}
+valuation: ! 'data: {"current":72,"last":82,"id":"valuation","updatedAt":1434581622}
 
 
 '
-karma: ! 'data: {"current":135624,"last":59912,"id":"karma","updatedAt":1434303492}
+karma: ! 'data: {"current":120337,"last":190370,"id":"karma","updatedAt":1434581622}
 
 
 '
-synergy: ! 'data: {"value":78,"id":"synergy","updatedAt":1434303492}
+synergy: ! 'data: {"value":29,"id":"synergy","updatedAt":1434581622}
 
 
 '
@@ -57,25 +56,34 @@ calendar_events: ! 'data: {"events":[{"title":"Защита бакалаврск
   чт, 25 июнь 2015<br />\n\n<br />Место: МГТУ им. Н.Э.Баумана, ул. 2-я Бауманская,
   5, стр. 1, Москва, г. Москва, Россия\n<br />Статус мероприятия: подтверждено","calendar":"Google
   Calendar","when_start_raw":0,"when_end_raw":0,"when_start":"No time","when_end":"No
-  time","updatedAt":"01:37"}],"id":"calendar_events","updatedAt":1434303439}
+  time","updatedAt":"06:52"}],"id":"calendar_events","updatedAt":1434581573}
 
 
 '
-traffic: ! 'data: {"text":6,"utext":"Движение затруднено","from_info":"Yandex","updatedAt":"07:24","title":"Пробки","id":"traffic"}
+traffic: ! 'data: {"text":"5","utext":"Движение плотное","from_info":"Yandex","updatedAt":"23:06","title":"Пробки","id":"traffic"}
 
 
 '
-forecast: ! 'data: {"text":"17°","utext":"13°","from_info":"Yandex","updatedAt":"07:24","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
+forecast: ! 'data: {"text":"19°","utext":"18°","from_info":"Yandex","updatedAt":"23:06","title":"Погода","pre_text":"Сейчас","pre_utext":"Завтра","id":"forecast"}
 
 
 '
-todoist: ! 'data: {"body":"<ul><li>написать про MQTT</li><li>Нарисовать диаграмму
-  вариантов использования</li><li>Начать писать про проганье nRF24LE01</li><li>Разобраться
-  с управлением светом</li></ul>","title":"Задачи","updatedAt":"01:38","from_info":"Todoist","id":"todoist"}
+todoist: ! 'data: {"body":"<ul><li>Написать подключение устройств</li><li>написать
+  настройку беспроводной связи и подключение к серверу</li></ul>","title":"Задачи","updatedAt":"06:53","from_info":"TODOist","id":"todoist"}
 
 
 '
-mqtt: ! 'data: {"text":"sdgd324","updatedAt":"18:13","from_info":"MQTT","id":"mqtt"}
+mqtt: ! 'data: {"text":"235e","updatedAt":"22:27","from_info":"MQTT","id":"mqtt"}
+
+
+'
+mode: ! 'data: {"text":"Выключен","title":"Режим","updatedAt":"06:19","from_info":"openHAB","pre_text":"\"Никого
+  нет дома\"","utext":"","id":"mode"}
+
+
+'
+comfort: ! 'data: {"title":"","text":"Нормальное давление","utext":"Небольшой дискомфорт","pre_utext":"Высокая
+  влажность","updatedAt":"06:53","from_info":"openHAB","id":"comfort"}
 
 
 '

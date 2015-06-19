@@ -1,21 +1,21 @@
 <script type="text/javascript">
-$(function() {
+//$(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
-  Dashing.widget_base_dimensions = [370, 340]
-  Dashing.numColumns = 5
-});
+//  Dashing.widget_base_dimensions = [370, 340]
+//  Dashing.numColumns = 5
+//});
 </script>
-<% content_for :title do %>Smart Home<% end %>
+<% content_for :title do %>Умный дом<% end %>
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="clock" data-view="Clock" data-title="clock" style="background-color:#222;"></div>
     </li>
     <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
-      <div data-id="forecast" data-view="Text" data-title="" style="background-color:#0066FF;"></div>
+      <div data-id="forecast" data-view="Text" data-title="" style="background-color:#3399ff;"></div>
     </li>
     <li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="todoist" data-view="Tasks" data-title=""></div>
+      <div data-id="todoist" data-view="Tasks" data-title="" style="background-color:#222"></div>
     </li>
     <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
       <div data-id="usd_cur" data-view="Currency" data-title="" data-prefix="$"></div>
@@ -26,8 +26,11 @@ $(function() {
     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="traffic" data-view="Text" data-title=""></div>
     </li>
-    <li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
-      <div data-id="mqtt" data-view="Text" data-title=""></div>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="mode" data-view="Text" data-title=""></div>
+    </li>
+    <li data-row="3" data-col="3" data-sizex="2" data-sizey="1">
+      <div data-id="comfort" data-view="Text" data-title=""></div>
     </li>
   </ul>
 </div>
